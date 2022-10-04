@@ -1,0 +1,13 @@
+{
+    "scripts": {
+      "build": " esbuild --bundle ./src --outfile=build/app.js && cp public/* build"
+    },
+    "dependencies": {
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0"
+    },
+    "devDependencies": {
+      "esbuild": "^0.15.10"
+    }
+  }
+  
